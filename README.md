@@ -1,18 +1,17 @@
-# Lswank Tap
+# lswank/homebrew-tap
 
-## How do I install these formulae?
+Homebrew tap for menustow.
 
-`brew install lswank/tap/<formula>`
+## Install
 
-Or `brew tap lswank/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "lswank/tap"
-brew "<formula>"
+```sh
+brew install lswank/homebrew-tap/menustow
 ```
 
-## Documentation
+## What’s inside
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- `menustow` (cask)
+
+## Updates
+
+The cask tracks official GitHub Releases. Run `brew upgrade --cask menustow` after new releases.
